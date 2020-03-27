@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project_zero">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WorsePage"></activity>
+        <activity android:name=".AveragePage" />
+        <activity android:name=".WelldonePage" />
+        <activity android:name=".Instruction" />
+        <activity android:name=".GameTenPage" />
+        <activity android:name=".GameNinePage" />
+        <activity android:name=".GameEightPage" />
+        <activity android:name=".GameSeventhPage" />
+        <activity android:name=".GameSixthPage" />
+        <activity android:name=".GameFivePage" />
+        <activity android:name=".GameFourPage" />
+        <activity android:name=".GameThirdPage" />
+        <activity android:name=".GameSecondPage" />
+        <activity android:name=".Loading" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen_1"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NamePage" />
+        <activity android:name=".GameFirstPage" />
+    </application>
+
+</manifest>

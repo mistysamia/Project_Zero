@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/averagepage"
+    android:gravity="bottom|center"
+    tools:context=".AveragePage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:id="@+id/average"
+        android:textSize="43dp"
+        android:layout_marginRight="13dp"
+        android:textColor="@color/colorred"
+        android:textStyle="bold"
+        android:layout_marginLeft="86dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorred"
+        android:id="@+id/showVal1"
+        android:layout_marginLeft="127dp"
+        android:textStyle="bold"
+        android:layout_marginTop="140dp"
+        android:textSize="43dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageButton
+        android:id="@+id/averagetryagain"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:textColor="@color/colororange"
+        android:layout_marginRight="190dp"
+        android:layout_marginTop="329dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        android:src="@drawable/tryagain"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <ImageButton
+        android:id="@+id/averageexit"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="330dp"
+        android:background="@color/colorwhite"
+        android:src="@drawable/exit"
+        android:text="4"
+        android:textColor="@color/colororange"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+
+</RelativeLayout>

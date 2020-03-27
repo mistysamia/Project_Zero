@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagetwo"
+    android:orientation="horizontal"
+    android:padding="33dp"
+    tools:context=".GameSecondPage">
+
+    <Button
+        android:id="@+id/ques122"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="170dp"
+        android:background="@color/colorwhite"
+        android:text="16"
+        android:textColor="@color/colororange"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/ques123"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:background="@color/colorwhite"
+        android:text="22"
+        android:layout_marginLeft="-285dp"
+        android:textSize="40dp"
+        android:textColor="@color/colororange"
+        android:layout_marginTop="329dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="423dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ques124"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:background="@color/colorwhite"
+        android:text="17"
+        android:textSize="40dp"
+        android:textColor="@color/colororange"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="329dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/ques121"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginTop="215dp"
+        android:textColor="@color/colororange"
+        android:background="@color/colorwhite"
+        android:text="19"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="432dp" />
+    />
+
+
+
+</LinearLayout>
